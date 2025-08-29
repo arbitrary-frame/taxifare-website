@@ -32,7 +32,8 @@ st.subheader("📅 Date and Time of Ride")
 
 pickup_datetime = st.text_input(
     "Enter pickup datetime (format: YYYY-MM-DD HH:MM:SS)",
-    placeholder="2025-08-29 14:30:00"
+    placeholder="2025-08-29 14:30:00",
+    value='2014-07-06 19:18:00'
 )
 
 st.markdown("---")
